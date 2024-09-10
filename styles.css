@@ -1,8 +1,54 @@
-a {
-    color: red;
-    text-decoration: none;
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
 }
 
-a:hover {
-    color: green;
+/* Ensure the navbar stays at the top */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Container to align items */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style links */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    width: 50%;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
 }
