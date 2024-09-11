@@ -49,6 +49,20 @@ body, h1, p {
     margin: 15px;
 }
 
-h1 {
+.title {
     text-align: center;
+}
+
+.home-body {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+#me {
+    height: 600px;
+    border-radius: 15px;
 }
