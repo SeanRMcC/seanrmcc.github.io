@@ -93,6 +93,35 @@ body, h1, p {
     font-size: 18px;
 }
 
+.contact-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    height: 50px;
+    transition: all .5s ease-in-out
+}
+
+.icon:hover {
+    opacity: 50%;
+    transform: scale(1.5);
+}
+
+.email {
+    font-size: 25px;
+    transition: all .5s ease-in-out
+}
+
+.email:hover {
+    opacity: 50%;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 #me {
     height: 600px;
     border-radius: 15px;
