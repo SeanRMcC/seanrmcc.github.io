@@ -126,3 +126,8 @@ body, h1, p {
     height: 600px;
     border-radius: 15px;
 }
+
+#me:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
