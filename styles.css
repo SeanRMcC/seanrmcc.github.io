@@ -66,8 +66,11 @@ body, h1, p {
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .github {
@@ -84,6 +87,10 @@ body, h1, p {
 
 .github-btn:hover {
     background-color: #575757;
+}
+
+.text {
+    font-size: 18px;
 }
 
 #me {
