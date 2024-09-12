@@ -13,6 +13,7 @@ body, h1, p {
     width: 100%;
     padding: 10px 0;
     z-index: 1000; /* Ensure it's above other content */
+    margin-bottom: 25px;
 }
 
 /* Container to align items */
@@ -42,11 +43,18 @@ body, h1, p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
 
 .project {
     width: 50%;
     margin: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: baseline;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
 }
 
 .title {
@@ -60,6 +68,22 @@ body, h1, p {
     margin-right: 10%;
     margin-top: 50px;
     gap: 20px;
+}
+
+.github {
+    text-decoration: none;
+    color: white;
+}
+
+.github-btn {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+}
+
+.github-btn:hover {
+    background-color: #575757;
 }
 
 #me {
